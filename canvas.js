@@ -5,9 +5,9 @@ window.onload=function(){
 	canvas.height=480;
 	var c=canvas.getContext('2d');
 	var vid = document.getElementById("planeaudio");
-	vid.volume = 0.0;//0.05
+	vid.volume = 0.05;//0.05
 	var vid2 = document.getElementById("trainaudio");
-	vid2.volume = 0.0;//0.2
+	vid2.volume = 0.2;//0.2
 
 	var loop;
 		//for cloud
